@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lusat.max.gms" >
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".Splash" >
+            <intent-filter>
+                <action android:name="com.lusat.max.gms.Splash" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PriceCheck" >
+            <intent-filter>
+                <action android:name="com.lusat.max.gms.PriceCheck" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StockChecker" >
+            <intent-filter>
+                <action android:name="com.lusat.max.gms.StockChecker" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AllProduct" >
+            <intent-filter>
+                <action android:name="com.lusat.max.gms.AllProduct" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ExpirySorting" >
+            <intent-filter>
+                <action android:name="com.lusat.max.gms.ExpirySorting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UploadCSV" >
+            <intent-filter>
+                <action android:name="com.lusat.max.gms.UploadCSV" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WarehouseIndent" >
+            <intent-filter>
+                <action android:name="com.lusat.max.gms.WarehouseIndent" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etaddwarehouseqty"
+            android:layout_weight="3"/>
+            <Button
+                android:text="ADD WAREHOUSE QTY"
+                android:background="#82B1FF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btaddwarehouseqty"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etaddshopqty"
+            android:layout_weight="3" />
+            <Button
+                android:text="ADD CURRENT SHOP QTY"
+                android:background="#82B1FF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btaddshopqty"
+                android:layout_weight="1" />
+            </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etaddminstock"
+            android:layout_weight="3" />
+            <Button
+                android:text="ADD MIN SHOP QTY"
+                android:background="#82B1FF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btaddminstock"
+                android:layout_weight="1" />
+            </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etaddcode"
+            android:layout_weight="1" />
+
+            <ToggleButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/toggleButton"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="ADD NEW PCODE"
+                android:background="#82B1FF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btaddcode"
+                android:layout_weight="1" />
+            </LinearLayout>
+        <Button
+            android:text="CALCULATE WAREHOUSE INDENT"
+            android:background="#EF5350"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btcalcindent"
+            android:layout_weight="1" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#9CCC65">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PCODE"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAME"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOTAL QTY"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WAREHOUSE QTY"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INDENT QTY"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Search Result"
+            android:id="@+id/tvResult" />
+
+    </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>
